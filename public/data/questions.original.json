@@ -1,0 +1,1357 @@
+{
+    "metadata": {
+        "language": "es-MX",
+        "deduplication": "Se omitieron capturas repetidas con la misma pregunta y respuesta; se conservaron variantes con redacci\u00f3n u opciones distintas.",
+        "total_questions": 88,
+        "supported_types": [
+            "multiple_choice",
+            "multiple_choice_multi_select",
+            "true_false_group",
+            "dropdown_selection",
+            "mapping"
+        ]
+    },
+    "questions": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Su empresa est\u00e1 evaluando el licenciamiento de Microsoft 365 Copilot. \u00bfEn qu\u00e9 escenario deber\u00eda usar la facturaci\u00f3n de pago por uso (pay-as-you-go)?",
+            "options": {
+                "A": "Proporcionar a los usuarios acceso al asistente de IA de Copilot en Word.",
+                "B": "Resumir acciones en reuniones de Microsoft Teams.",
+                "C": "Generar im\u00e1genes en chats premium.",
+                "D": "Poner un agente personalizado a disposici\u00f3n de usuarios sin licencia."
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "Poner un agente personalizado a disposici\u00f3n de usuarios sin licencia."
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice_multi_select",
+            "question": "Necesita asegurarse de que los usuarios puedan utilizar un sistema externo como fuente de conocimiento para agentes personalizados de Microsoft 365 Copilot. \u00bfQu\u00e9 debe configurar en el Centro de administraci\u00f3n de Microsoft 365? Seleccione DOS opciones.",
+            "options": {
+                "A": "Informaci\u00f3n general (Overview)",
+                "B": "Agentes (Agents)",
+                "C": "Conectores (Connectors)",
+                "D": "B\u00fasqueda (Search)",
+                "E": "Facturaci\u00f3n y uso (Billing & usage)",
+                "F": "Configuraci\u00f3n (Settings)"
+            },
+            "correct_answers": [
+                "B",
+                "C"
+            ],
+            "correct_answer_text": [
+                "Agentes (Agents)",
+                "Conectores (Connectors)"
+            ]
+        },
+        {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita asignar una licencia a un usuario. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Portal de Microsoft Purview",
+                "B": "Centro de administraci\u00f3n de Microsoft 365",
+                "C": "Centro de administraci\u00f3n de Microsoft Teams"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Centro de administraci\u00f3n de Microsoft 365"
+        },
+        {
+            "id": 4,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Su empresa compr\u00f3 recientemente licencias de Microsoft 365 Copilot para algunos usuarios. Necesita identificar cu\u00e1ntos usuarios sin licencia han utilizado Copilot en Microsoft Teams. \u00bfQu\u00e9 informe de uso deber\u00eda utilizar en el Centro de administraci\u00f3n de Microsoft 365?",
+            "options": {
+                "A": "Microsoft 365 Copilot Chat",
+                "B": "Microsoft 365 Copilot Search",
+                "C": "Microsoft 365 Apps",
+                "D": "Microsoft 365 Copilot"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Microsoft 365 Copilot Chat"
+        },
+        {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Necesita crear un agente de Microsoft 365 Copilot que pueda generar gr\u00e1ficos y visualizaciones basados en un libro de Microsoft Excel. \u00bfQu\u00e9 deber\u00eda configurar para el agente?",
+            "options": {
+                "A": "La capacidad de generaci\u00f3n de im\u00e1genes",
+                "B": "La plantilla Scrum Assistant",
+                "C": "La plantilla Customer Insights Assistant",
+                "D": "La capacidad de int\u00e9rprete de c\u00f3digo"
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "La capacidad de int\u00e9rprete de c\u00f3digo"
+        },
+        {
+            "id": 6,
+            "type": "multiple_choice",
+            "question": "Su empresa est\u00e1 realizando una prueba piloto del uso de Microsoft 365 Copilot y ha adquirido 100 licencias de Microsoft 365 Copilot. Necesita ver informes detallados sobre el uso de Copilot en Microsoft Teams, como las horas de reuniones resumidas por Copilot y las acciones de reuni\u00f3n realizadas mediante Copilot. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El informe de preparaci\u00f3n para Microsoft 365 Copilot en el Centro de administraci\u00f3n de Microsoft 365",
+                "B": "El informe de uso de Microsoft 365 Copilot en el Centro de administraci\u00f3n de Microsoft 365",
+                "C": "El panel de Microsoft 365 Copilot en Microsoft Viva Insights",
+                "D": "El informe de uso de Microsoft 365 Apps en el Centro de administraci\u00f3n de Microsoft 365"
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "El panel de Microsoft 365 Copilot en Microsoft Viva Insights"
+        },
+        {
+            "id": 7,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Para utilizar Microsoft 365 Copilot Chat para razonar sobre datos web, necesita una licencia de Microsoft 365 Copilot.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Para utilizar el agente Researcher en Microsoft 365 Copilot, necesita una licencia de Microsoft 365 Copilot.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Para agregar un agente en la aplicaci\u00f3n Microsoft 365 Copilot, necesita una licencia de Microsoft 365 Copilot.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "type": "multiple_choice",
+            "question": "Su empresa planea utilizar Microsoft 365 Copilot. Necesita proporcionar a un usuario la capacidad de usar Microsoft 365 Copilot, incluidos los agentes Researcher y Analyst. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Centro de administraci\u00f3n de Microsoft 365",
+                "B": "Portal de Microsoft Purview",
+                "C": "Centro de administraci\u00f3n de Microsoft Entra",
+                "D": "Portal de Microsoft Defender"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Centro de administraci\u00f3n de Microsoft 365"
+        },
+        {
+            "id": 9,
+            "type": "multiple_choice",
+            "question": "Un usuario llamado User1 crea un agente de Microsoft 365 Copilot llamado Agent1 y comparte el agente con un usuario llamado User2. \u00bfQu\u00e9 sucede si un administrador bloquea Agent1?",
+            "options": {
+                "A": "Agent1 es accesible para User1 y User2 hasta que los usuarios desinstalen manualmente Agent1. Ning\u00fan otro usuario puede instalar Agent1.",
+                "B": "Agent1 es accesible para User1 y User2, y ning\u00fan otro usuario puede instalar Agent1.",
+                "C": "Agent1 se elimina de User2 y User1 puede seguir usando Agent1.",
+                "D": "Agent1 se elimina de User1 y User2, y ning\u00fan usuario puede instalar Agent1."
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "Agent1 se elimina de User1 y User2, y ning\u00fan usuario puede instalar Agent1."
+        },
+        {
+            "id": 10,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "El informe de uso de Microsoft 365 Copilot puede utilizarse para ver los prompts de Copilot enviados por los usuarios.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "El informe de uso de Microsoft 365 Copilot muestra el n\u00famero total de usuarios \u00fanicos de la organizaci\u00f3n que tienen asignadas licencias de Microsoft 365 Copilot.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "El informe de uso de Microsoft 365 Copilot muestra el uso de Copilot para cada aplicaci\u00f3n individual de Microsoft 365.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Los administradores pueden bloquear sitios web espec\u00edficos para que no sean utilizados por Microsoft 365 Copilot.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Los administradores pueden impedir que Microsoft 365 Copilot utilice la b\u00fasqueda web al responder a los prompts de los usuarios.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Los administradores pueden bloquear el acceso al agente Researcher en Microsoft 365 Copilot mientras permiten el acceso al agente Analyst.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft Purview Communications Compliance puede detectar texto ofensivo en im\u00e1genes almacenadas en sitios de Microsoft SharePoint.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Purview Communications Compliance anonimiza de forma predeterminada las identidades de los usuarios durante las investigaciones.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Purview Communications Compliance agrega un aviso legal (disclaimer) a todas las comunicaciones supervisadas.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "type": "multiple_choice",
+            "question": "Un usuario llamado User1 es responsable de los informes trimestrales de ventas. User1 necesita identificar tendencias de rendimiento, generar informaci\u00f3n visual y crear un resumen de anomal\u00edas a trav\u00e9s de varios archivos que contienen diferentes conjuntos de datos. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El agente Analyst en Microsoft 365 Copilot",
+                "B": "El agente Researcher en Microsoft 365 Copilot",
+                "C": "Microsoft 365 Copilot Search",
+                "D": "Copilot en Excel"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "El agente Analyst en Microsoft 365 Copilot"
+        },
+        {
+            "id": 14,
+            "type": "multiple_choice",
+            "question": "Su empresa est\u00e1 evaluando la facturaci\u00f3n de Microsoft 365 Copilot bajo el modelo de pago por uso (pay-as-you-go) en lugar de adquirir una licencia de Microsoft 365 Copilot. \u00bfEn cu\u00e1l de los siguientes escenarios aplica la facturaci\u00f3n de pago por uso?",
+            "options": {
+                "A": "Realizar razonamiento de m\u00faltiples pasos utilizando el agente Researcher.",
+                "B": "Generar un resumen de una reuni\u00f3n de Microsoft Teams.",
+                "C": "Utilizar un agente personalizado basado en datos de trabajo.",
+                "D": "Utilizar el asistente de IA para editar un documento en Copilot para Word."
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Utilizar un agente personalizado basado en datos de trabajo."
+        },
+        {
+            "id": 15,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Microsoft 365 Copilot recupera datos de ____ mediante Microsoft Graph.",
+            "options": [
+                "Azure OpenAI",
+                "usuarios externos",
+                "archivos de Microsoft SharePoint",
+                "b\u00fasquedas web"
+            ],
+            "correct_answer": "archivos de Microsoft SharePoint"
+        },
+        {
+            "id": 16,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Los administradores pueden eliminar un agente espec\u00edfico de Copilot para todos los usuarios.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Desde el Centro de administraci\u00f3n de Microsoft 365, los administradores pueden configurar los prompts de un agente de Copilot.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Los administradores pueden implementar agentes de Copilot para usuarios espec\u00edficos.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Todos los usuarios tienen asignada una licencia de Microsoft 365 Copilot. Necesita impedir que los usuarios generen im\u00e1genes mediante Copilot. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El portal de Microsoft Defender",
+                "B": "El centro de administraci\u00f3n de Microsoft Entra",
+                "C": "El portal de Microsoft Purview",
+                "D": "El centro de administraci\u00f3n de Microsoft 365"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "El centro de administraci\u00f3n de Microsoft Entra"
+        },
+        {
+            "id": 18,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft 365 Copilot solo muestra los datos organizacionales para los cuales los usuarios individuales tienen permisos.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft 365 Copilot utiliza los mismos controles subyacentes de acceso a datos que otros servicios de Microsoft 365.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft 365 Copilot puede utilizar conectores para recuperar informaci\u00f3n de fuentes de datos de terceros.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "type": "multiple_choice",
+            "question": "Utiliza Microsoft 365 Copilot. Necesita programar un prompt para que se ejecute a medianoche. \u00bfQu\u00e9 tarea deber\u00eda incluir en su soluci\u00f3n?",
+            "options": {
+                "A": "Crear un agente.",
+                "B": "Crear un cuaderno (notebook).",
+                "C": "Ejecutar el prompt.",
+                "D": "Guardar el prompt."
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Ejecutar el prompt."
+        },
+        {
+            "id": 20,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Si un usuario comparte un agente de Microsoft 365 Copilot, puede usar ____ para impedir que los usuarios utilicen el agente.",
+            "options": [
+                "Microsoft Foundry",
+                "Microsoft Copilot Studio",
+                "el Centro de administraci\u00f3n de Microsoft 365",
+                "el portal de Power Apps"
+            ],
+            "correct_answer": "el Centro de administraci\u00f3n de Microsoft 365"
+        },
+        {
+            "id": 21,
+            "type": "multiple_choice_multi_select",
+            "question": "Planea crear un agente en la aplicaci\u00f3n Microsoft 365 Copilot para resolver un problema de negocio. \u00bfCu\u00e1les son dos razones para crear el agente? Cada respuesta correcta presenta una soluci\u00f3n completa.",
+            "options": {
+                "A": "Necesita utilizar un modelo de IA personalizado.",
+                "B": "Necesita utilizar un conjunto personalizado de instrucciones que sea diferente al de la experiencia de chat.",
+                "C": "Necesita razonar sobre un sitio web espec\u00edfico.",
+                "D": "Necesita agrupar chats relacionados en un cuaderno (notebook) de Copilot."
+            },
+            "correct_answers": [
+                "B",
+                "C"
+            ],
+            "correct_answer_text": [
+                "Necesita utilizar un conjunto personalizado de instrucciones que sea diferente al de la experiencia de chat.",
+                "Necesita razonar sobre un sitio web espec\u00edfico."
+            ]
+        },
+        {
+            "id": 22,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "En Microsoft 365 Copilot, debe usar ____ para realizar razonamiento de m\u00faltiples pasos sobre datos no estructurados.",
+            "options": [
+                "un cuaderno (notebook)",
+                "Chat",
+                "el agente Analyst",
+                "el agente Researcher"
+            ],
+            "correct_answer": "el agente Researcher"
+        },
+        {
+            "id": 23,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Desde la Galer\u00eda de Prompts de Copilot, puede modificar un prompt guardado.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Desde la Galer\u00eda de Prompts de Copilot, puede compartir un prompt guardado con un equipo de Microsoft Teams.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Puede crear un v\u00ednculo compartido para un prompt que NO fue guardado en la Galer\u00eda de Prompts de Copilot.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "type": "dropdown_selection",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365 que contiene un sitio de Microsoft SharePoint llamado Site1. Necesita identificar cualquier cambio realizado por un administrador del sitio en la configuraci\u00f3n de Site1. \u00bfQu\u00e9 informe deber\u00eda utilizar en el Centro de administraci\u00f3n de SharePoint?",
+            "sentence": "En el Centro de administraci\u00f3n de SharePoint, debe utilizar el informe ____.",
+            "options": [
+                "Agent insights",
+                "App insights",
+                "Change history",
+                "Data access governance",
+                "OneDrive accounts",
+                "Site policy comparison"
+            ],
+            "correct_answer": "Change history"
+        },
+        {
+            "id": 25,
+            "type": "multiple_choice",
+            "question": "Su empresa tiene un sitio de Microsoft SharePoint llamado Site1. Site1 contiene todas las pol\u00edticas del departamento de Recursos Humanos de la empresa. Las pol\u00edticas est\u00e1n guardadas como documentos de Microsoft Word. Todos los usuarios tienen acceso de lectura a Site1. El gerente de Recursos Humanos informa que las consultas de los usuarios sobre las pol\u00edticas no se atienden oportunamente, especialmente durante los d\u00edas festivos importantes. Necesita recomendar una soluci\u00f3n que permita a los usuarios encontrar las pol\u00edticas de Recursos Humanos. La soluci\u00f3n debe proporcionar a los usuarios una lista de consultas comunes y garantizar que las respuestas se basen \u00fanicamente en Site1. \u00bfQu\u00e9 deber\u00eda incluir en la recomendaci\u00f3n?",
+            "options": {
+                "A": "El asistente personal en Copilot para Word",
+                "B": "Un agente personalizado de Microsoft 365 Copilot",
+                "C": "El agente Researcher en Microsoft 365 Copilot",
+                "D": "Un cuaderno (notebook) de Microsoft 365 Copilot"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Un agente personalizado de Microsoft 365 Copilot"
+        },
+        {
+            "id": 26,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft 365 Copilot respeta las etiquetas de confidencialidad de Microsoft Purview.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft 365 Copilot ignora las directivas de Prevenci\u00f3n de P\u00e9rdida de Datos (DLP) de Microsoft Purview.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Microsoft 365 Copilot respeta los permisos existentes de Microsoft 365.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "type": "dropdown_selection",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Descubre que archivos de Microsoft SharePoint se est\u00e1n compartiendo con usuarios fuera de la organizaci\u00f3n. Necesita identificar qu\u00e9 archivos se est\u00e1n compartiendo con usuarios externos. \u00bfQu\u00e9 informe deber\u00eda utilizar en el Centro de administraci\u00f3n de SharePoint?",
+            "sentence": "En el Centro de administraci\u00f3n de SharePoint, debe utilizar el informe ____.",
+            "options": [
+                "Agent insights",
+                "App insights",
+                "Change history",
+                "Data access governance",
+                "OneDrive accounts",
+                "Site policy comparison"
+            ],
+            "correct_answer": "Data access governance"
+        },
+        {
+            "id": 28,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Se puede aplicar una etiqueta de confidencialidad a un sitio de Microsoft SharePoint.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Se puede aplicar una etiqueta de confidencialidad a un mensaje de correo electr\u00f3nico en Microsoft Exchange.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Se puede aplicar una etiqueta de confidencialidad a dispositivos con Windows 11.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "type": "multiple_choice",
+            "question": "Utiliza Microsoft 365 Copilot. \u00bfQu\u00e9 utiliza Copilot para generar respuestas basadas en datos corporativos almacenados en Microsoft SharePoint?",
+            "options": {
+                "A": "Microsoft Intune",
+                "B": "Microsoft Defender",
+                "C": "Microsoft Graph",
+                "D": "Microsoft Purview"
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Microsoft Graph"
+        },
+        {
+            "id": 30,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Puede utilizar la soluci\u00f3n de Microsoft Purview ____ para detectar prompts de Microsoft 365 Copilot que contengan informaci\u00f3n confidencial.",
+            "options": [
+                "Data Lifecycle Management",
+                "DSPM for AI",
+                "Information Barriers",
+                "Information Protection"
+            ],
+            "correct_answer": "DSPM for AI"
+        },
+        {
+            "id": 31,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365 que contiene sitios de Microsoft SharePoint y equipos de Microsoft Teams. Descubre que los sitios y equipos se comparten con usuarios fuera de la organizaci\u00f3n. Necesita identificar qu\u00e9 sitios y equipos fueron compartidos con usuarios externos. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El Centro de administraci\u00f3n de SharePoint",
+                "B": "El Centro de administraci\u00f3n de Microsoft Teams",
+                "C": "El Centro de administraci\u00f3n de Microsoft 365",
+                "D": "El portal de Microsoft Defender"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "El Centro de administraci\u00f3n de SharePoint"
+        },
+        {
+            "id": 32,
+            "type": "multiple_choice",
+            "question": "Tiene un sitio de Microsoft SharePoint llamado Site8. En la biblioteca de documentos hay archivos con etiquetas de confidencialidad aplicadas, por ejemplo SLabel1 y SLabel2. Necesita ver la configuraci\u00f3n de SLabel1. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El portal de Microsoft Defender",
+                "B": "El Centro de administraci\u00f3n de SharePoint",
+                "C": "El Centro de administraci\u00f3n de Microsoft 365",
+                "D": "El portal de Microsoft Purview"
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "El portal de Microsoft Purview"
+        },
+        {
+            "id": 33,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Todos los usuarios tienen licencias de Microsoft 365 Copilot. Necesita identificar d\u00f3nde se est\u00e1 utilizando contenido confidencial durante las interacciones con Copilot, analizar los patrones de uso del contenido y recibir recomendaciones sobre la aplicaci\u00f3n de las protecciones adecuadas. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Microsoft Viva Insights",
+                "B": "La soluci\u00f3n Microsoft Purview DSPM for AI",
+                "C": "Microsoft Security Copilot",
+                "D": "La soluci\u00f3n Microsoft Purview Insider Risk Management"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "La soluci\u00f3n Microsoft Purview DSPM for AI"
+        },
+        {
+            "id": 34,
+            "type": "multiple_choice",
+            "question": "Su empresa tiene una pol\u00edtica de cumplimiento escrita que requiere que todos los correos electr\u00f3nicos se conserven durante siete a\u00f1os y, posteriormente, se eliminen de forma permanente. \u00bfQu\u00e9 soluci\u00f3n de Microsoft Purview deber\u00eda utilizar?",
+            "options": {
+                "A": "Information Protection",
+                "B": "Data Lifecycle Management",
+                "C": "Data Loss Prevention",
+                "D": "Insider Risk Management"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Data Lifecycle Management"
+        },
+        {
+            "id": 35,
+            "type": "multiple_choice",
+            "question": "Su empresa requiere que todos los sitios de Microsoft SharePoint tengan un m\u00ednimo de dos propietarios. Necesita asegurarse de que los sitios que tengan menos de dos propietarios se marquen como solo lectura si no son corregidos. \u00bfQu\u00e9 deber\u00eda configurar en el Centro de administraci\u00f3n de SharePoint?",
+            "options": {
+                "A": "Site-level access restriction",
+                "B": "Data access governance reports",
+                "C": "Site lifecycle management",
+                "D": "Block download policy for SharePoint and OneDrive"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Site-level access restriction"
+        },
+        {
+            "id": 36,
+            "type": "true_false_group",
+            "question": "Est\u00e1 evaluando las soluciones de Microsoft Purview. Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Una directiva de Communication Compliance puede detectar texto inapropiado en mensajes de Microsoft Teams.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Una directiva de Communication Compliance puede detectar lenguaje ofensivo en los prompts de Microsoft 365 Copilot.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Una directiva de Communication Compliance puede utilizarse para conservar mensajes de correo electr\u00f3nico durante 10 a\u00f1os.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "type": "mapping",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita utilizar Microsoft Purview para cumplir los siguientes requisitos. Seleccione la soluci\u00f3n adecuada para cada requisito.",
+            "items": [
+                {
+                    "requirement": "Evitar que los usuarios compartan archivos que contengan Informaci\u00f3n de Identificaci\u00f3n Personal (PII).",
+                    "correct_answer": "Data Loss Prevention"
+                },
+                {
+                    "requirement": "Usar aprendizaje autom\u00e1tico para entrenar un modelo que detecte contenido confidencial.",
+                    "correct_answer": "DSPM for AI"
+                }
+            ],
+            "available_options": [
+                "Communication Compliance",
+                "Data Loss Prevention",
+                "DSPM for AI",
+                "Information Protection",
+                "Insider Risk Management"
+            ]
+        },
+        {
+            "id": 38,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Desde el portal de Microsoft Purview, puede utilizar Data Explorer para ____.",
+            "options": [
+                "crear y administrar directivas de privacidad",
+                "realizar b\u00fasquedas de contenido en buzones y sitios",
+                "identificar informaci\u00f3n confidencial y d\u00f3nde se encuentra",
+                "revisar la efectividad de las directivas de prevenci\u00f3n de p\u00e9rdida de datos (DLP)"
+            ],
+            "correct_answer": "identificar informaci\u00f3n confidencial y d\u00f3nde se encuentra"
+        },
+        {
+            "id": 39,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n Microsoft 365 E5. Crea una etiqueta de confidencialidad de Microsoft Purview llamada Label1. Necesita asegurarse de que los usuarios puedan aplicar Label1 a archivos en Microsoft 365. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Una directiva de etiquetas de confidencialidad (Sensitivity Label Policy)",
+                "B": "Un clasificador entrenable (Trainable Classifier)",
+                "C": "Una directiva de etiquetas de retenci\u00f3n (Retention Label Policy)",
+                "D": "Una directiva de etiquetado autom\u00e1tico (Auto-labeling Policy)"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Una directiva de etiquetas de confidencialidad (Sensitivity Label Policy)"
+        },
+        {
+            "id": 40,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft Purview DSPM for AI puede proporcionar visibilidad sobre el uso de ChatGPT.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Purview DSPM for AI puede proporcionar visibilidad sobre el uso de Microsoft 365 Copilot.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Purview DSPM for AI puede bloquear a los usuarios para que no utilicen Microsoft 365 Copilot.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft Purview Compliance Manager proporciona una puntuaci\u00f3n de cumplimiento basada en riesgos para ayudarle a comprender su postura de cumplimiento.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Purview Compliance Manager proporciona orientaci\u00f3n paso a paso para corregir problemas de cumplimiento.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Compliance Manager forma parte de Microsoft Defender.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Para que los administradores utilicen SharePoint Advanced Management, todos los usuarios de la organizaci\u00f3n necesitan una licencia de Microsoft 365 Copilot.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "SharePoint Advanced Management puede ayudar a restringir el acceso de Microsoft 365 Copilot al contenido de Microsoft SharePoint.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "SharePoint Advanced Management est\u00e1 disponible como licencia independiente para organizaciones que no tienen Microsoft 365 Copilot.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "type": "mapping",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita utilizar Microsoft Purview para cumplir los siguientes requisitos. Seleccione la soluci\u00f3n adecuada para cada requisito.",
+            "items": [
+                {
+                    "requirement": "Descubrir y clasificar datos confidenciales en m\u00faltiples plataformas.",
+                    "correct_answer": "Information Protection"
+                },
+                {
+                    "requirement": "Impedir que los usuarios compartan propiedad intelectual con usuarios externos.",
+                    "correct_answer": "Insider Risk Management"
+                }
+            ],
+            "available_options": [
+                "Communication Compliance",
+                "Data Loss Prevention",
+                "Information Protection",
+                "Insider Risk Management"
+            ]
+        },
+        {
+            "id": 44,
+            "type": "dropdown_selection",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. El departamento de Recursos Humanos solicita una copia de todos los archivos recientes que fueron modificados por un usuario llamado User1. \u00bfQu\u00e9 debe utilizar en el portal de Microsoft Purview?",
+            "sentence": "En el portal de Microsoft Purview, debe utilizar ____.",
+            "options": [
+                "Compliance alerts",
+                "Compliance Manager",
+                "Data Catalog",
+                "Data Lifecycle Management",
+                "Data Loss Prevention",
+                "Data Security Investigations (preview)",
+                "Data Security Posture Management",
+                "DSPM for AI",
+                "eDiscovery"
+            ],
+            "correct_answer": "eDiscovery"
+        },
+        {
+            "id": 45,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Restricted SharePoint Search permite restringir el acceso de ____ a sitios de Microsoft SharePoint sin impedir que los usuarios accedan a los archivos y contenido para los que tienen permisos.",
+            "options": [
+                "administradores",
+                "usuarios invitados",
+                "Microsoft 365 Copilot",
+                "Microsoft Purview eDiscovery"
+            ],
+            "correct_answer": "Microsoft 365 Copilot"
+        },
+        {
+            "id": 46,
+            "type": "multiple_choice",
+            "question": "Su empresa utiliza directivas de Prevenci\u00f3n de P\u00e9rdida de Datos (DLP) de Microsoft Purview. Un usuario llamado User1 comparte informaci\u00f3n confidencial con un usuario externo mediante Microsoft Teams. Necesita identificar el contenido confidencial que fue compartido. \u00bfQu\u00e9 deber\u00eda utilizar en el portal de Microsoft Purview?",
+            "options": {
+                "A": "Diagnostics",
+                "B": "Data Explorer",
+                "C": "Content Explorer",
+                "D": "Activity Explorer"
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "Activity Explorer"
+        },
+        {
+            "id": 47,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita investigar incidentes de seguridad y alertas generadas desde dispositivos con Windows 11 de la organizaci\u00f3n. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Microsoft Entra ID Protection",
+                "B": "Microsoft Defender for Identity",
+                "C": "Microsoft Purview Insider Risk Management",
+                "D": "Microsoft Defender for Endpoint"
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "Microsoft Defender for Endpoint"
+        },
+        {
+            "id": 48,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365 que contiene un usuario llamado User1. User1 planea abandonar la empresa en dos semanas. Necesita capturar la actividad de User1 para identificar si el usuario est\u00e1 exfiltrando datos. \u00bfQu\u00e9 soluci\u00f3n de Microsoft Purview deber\u00eda utilizar?",
+            "options": {
+                "A": "Communication Compliance",
+                "B": "Data Security Posture Management",
+                "C": "Insider Risk Management",
+                "D": "Data Lifecycle Management"
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Insider Risk Management"
+        },
+        {
+            "id": 49,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Las etiquetas de confidencialidad de Microsoft Purview pueden aplicarse a ____.",
+            "options": [
+                "Azure Blob Storage",
+                "Conversaciones de Microsoft 365 Copilot",
+                "Sitios de Microsoft SharePoint"
+            ],
+            "correct_answer": "Sitios de Microsoft SharePoint"
+        },
+        {
+            "id": 50,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Puede utilizar la soluci\u00f3n de Microsoft Purview ____ para encontrar todo el contenido relacionado con el t\u00e9rmino 'Project Falcon' en los correos electr\u00f3nicos intercambiados por dos usuarios.",
+            "options": [
+                "Audit",
+                "Data Catalog",
+                "eDiscovery",
+                "Insider Risk Management"
+            ],
+            "correct_answer": "eDiscovery"
+        },
+        {
+            "id": 51,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Puede utilizar ____ para revisar indicadores de amenazas correlacionados entre incidentes de correo electr\u00f3nico, identidad y dispositivos en una sola vista.",
+            "options": [
+                "Microsoft Defender for Office 365",
+                "Microsoft Defender XDR",
+                "Microsoft Purview Compliance Manager",
+                "Microsoft Purview Data Loss Prevention"
+            ],
+            "correct_answer": "Microsoft Defender XDR"
+        },
+        {
+            "id": 52,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n Microsoft 365 E5. Necesita evitar que los usuarios compartan datos financieros corporativos con usuarios externos. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Grupos de roles (Role Groups)",
+                "B": "Directivas de Prevenci\u00f3n de P\u00e9rdida de Datos (DLP)",
+                "C": "Directivas de Insider Risk Management",
+                "D": "Etiquetas de retenci\u00f3n (Retention Labels)"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Directivas de Prevenci\u00f3n de P\u00e9rdida de Datos (DLP)"
+        },
+        {
+            "id": 53,
+            "type": "multiple_choice",
+            "question": "Necesita identificar archivos y correos electr\u00f3nicos que contengan n\u00fameros de seguro social (SSN) y n\u00fameros de tarjeta de cr\u00e9dito. \u00bfQu\u00e9 deber\u00eda utilizar en el portal de Microsoft Purview?",
+            "options": {
+                "A": "Data Explorer",
+                "B": "Information Protection reports",
+                "C": "Information Protection policies",
+                "D": "Activity Explorer"
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Information Protection policies"
+        },
+        {
+            "id": 54,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Todos los usuarios tienen asignadas licencias de Microsoft 365 Copilot. Algunos usuarios informan que reciben respuestas de Copilot que contienen informaci\u00f3n de un sitio de Microsoft SharePoint llamado Finance. Los usuarios informan que la informaci\u00f3n es comercialmente sensible. Necesita evitar que Copilot proporcione respuestas que contengan informaci\u00f3n del sitio Finance. \u00bfQu\u00e9 deber\u00eda hacer?",
+            "options": {
+                "A": "Desde Microsoft Purview, crear una directiva de Barreras de Informaci\u00f3n (Information Barrier).",
+                "B": "Desde Microsoft Defender, crear un conector de datos.",
+                "C": "Desde Microsoft Entra, crear una directiva de Acceso Condicional.",
+                "D": "Desde el sitio Finance, configurar permisos."
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Desde Microsoft Purview, crear una directiva de Barreras de Informaci\u00f3n (Information Barrier)."
+        },
+        {
+            "id": 55,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Los usuarios pueden utilizar Microsoft 365 Copilot de forma an\u00f3nima.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Los administradores pueden permitir la compra de licencias de Microsoft 365 Copilot mediante autoservicio.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Las licencias de Microsoft 365 Copilot pueden asignarse a usuarios invitados de Microsoft Entra ID provenientes de otras organizaciones.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "En el Centro de administraci\u00f3n de Microsoft 365, la m\u00e9trica 'Credits used' del informe de cr\u00e9ditos de Copilot muestra el total de cr\u00e9ditos utilizados por los usuarios de la organizaci\u00f3n que ____ e interact\u00faan con agentes basados en datos de trabajo en Microsoft 365 Copilot Chat.",
+            "options": [
+                "usan Microsoft Teams",
+                "son externos a la organizaci\u00f3n",
+                "tienen asignada una licencia de Microsoft 365 Copilot",
+                "NO tienen asignada una licencia de Microsoft 365 Copilot"
+            ],
+            "correct_answer": "NO tienen asignada una licencia de Microsoft 365 Copilot"
+        },
+        {
+            "id": 57,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Cuando necesita agregar un dominio a una suscripci\u00f3n de Microsoft 365, debe verificar el dominio mediante ____.",
+            "options": [
+                "agregar un registro DNS p\u00fablico",
+                "confirmar la direcci\u00f3n de la empresa",
+                "cargar un certificado",
+                "cargar una p\u00e1gina web"
+            ],
+            "correct_answer": "agregar un registro DNS p\u00fablico"
+        },
+        {
+            "id": 58,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365 que contiene un sitio de Microsoft SharePoint llamado Site1. Necesita impedir que los usuarios compartan el contenido de Site1 con usuarios externos. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El contenido de Site1",
+                "B": "El Centro de administraci\u00f3n de SharePoint",
+                "C": "El Centro de administraci\u00f3n de Microsoft 365",
+                "D": "El Centro de administraci\u00f3n de Microsoft Entra"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "El Centro de administraci\u00f3n de SharePoint"
+        },
+        {
+            "id": 59,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "____ incluye se\u00f1ales como historial de colaboraci\u00f3n, relevancia de documentos y frecuencia de comunicaci\u00f3n, las cuales influyen en las respuestas de Microsoft 365 Copilot.",
+            "options": [
+                "Microsoft Copilot Studio",
+                "Microsoft Graph",
+                "Microsoft Purview",
+                "Microsoft Viva Insights"
+            ],
+            "correct_answer": "Microsoft Viva Insights"
+        },
+        {
+            "id": 60,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "____ es una soluci\u00f3n empresarial unificada que coordina la detecci\u00f3n, prevenci\u00f3n, investigaci\u00f3n y respuesta en endpoints, identidades, correo electr\u00f3nico y aplicaciones para proporcionar protecci\u00f3n integrada contra ataques sofisticados.",
+            "options": [
+                "Microsoft Defender XDR",
+                "Microsoft Entra Conditional Access",
+                "Microsoft Entra ID Protection",
+                "Microsoft Purview"
+            ],
+            "correct_answer": "Microsoft Defender XDR"
+        },
+        {
+            "id": 61,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Microsoft Defender for Office 365 proporciona protecci\u00f3n contra ataques de phishing y malware.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Defender for Identity supervisa identidades en dominios de Active Directory.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Microsoft Defender Vulnerability Management proporciona protecci\u00f3n para aplicaciones de software como servicio (SaaS).",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Microsoft Entra Privileged Identity Management (PIM) proporciona ____.",
+            "options": [
+                "acceso restringido a servicios de Microsoft 365",
+                "la administraci\u00f3n del ciclo de vida de los usuarios",
+                "la administraci\u00f3n de aplicaciones empresariales",
+                "activaci\u00f3n temporal de roles (time-bound role activation)"
+            ],
+            "correct_answer": "activaci\u00f3n temporal de roles (time-bound role activation)"
+        },
+        {
+            "id": 63,
+            "type": "multiple_choice",
+            "question": "Est\u00e1 revisando las directivas de seguridad de su empresa como parte de una estrategia Zero Trust. \u00bfQu\u00e9 afirmaci\u00f3n describe correctamente los principios de Zero Trust?",
+            "options": {
+                "A": "Zero Trust mejora la experiencia del usuario al minimizar las solicitudes de autenticaci\u00f3n.",
+                "B": "Zero Trust asume una posible vulneraci\u00f3n y verifica cada solicitud.",
+                "C": "Zero Trust trata todas las solicitudes provenientes de la red corporativa como confiables.",
+                "D": "Zero Trust elimina la necesidad de revisar y ajustar peri\u00f3dicamente los permisos de acceso."
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Zero Trust asume una posible vulneraci\u00f3n y verifica cada solicitud."
+        },
+        {
+            "id": 64,
+            "type": "multiple_choice_multi_select",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita evaluar el Identity Secure Score de la organizaci\u00f3n. \u00bfQu\u00e9 dos factores afectan la puntuaci\u00f3n? Cada respuesta correcta presenta una soluci\u00f3n completa.",
+            "options": {
+                "A": "Los permisos de los sitios de SharePoint",
+                "B": "El n\u00famero de administradores globales",
+                "C": "Las contrase\u00f1as que nunca expiran",
+                "D": "La ubicaci\u00f3n de los usuarios"
+            },
+            "correct_answers": [
+                "B",
+                "C"
+            ],
+            "correct_answer_text": [
+                "El n\u00famero de administradores globales",
+                "Las contrase\u00f1as que nunca expiran"
+            ]
+        },
+        {
+            "id": 65,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Descubre que algunos usuarios no pueden iniciar sesi\u00f3n en Microsoft 365. Necesita ver los intentos fallidos de inicio de sesi\u00f3n de Microsoft 365. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El portal de Microsoft Defender",
+                "B": "El Centro de administraci\u00f3n de Microsoft Entra",
+                "C": "El portal de Microsoft Purview",
+                "D": "El Centro de administraci\u00f3n de Microsoft 365"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "El Centro de administraci\u00f3n de Microsoft Entra"
+        },
+        {
+            "id": 66,
+            "type": "multiple_choice_multi_select",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. \u00bfQu\u00e9 dos tareas puede realizar mediante el Centro de administraci\u00f3n de Exchange? Cada respuesta correcta presenta parte de la soluci\u00f3n.",
+            "options": {
+                "A": "Asignar una licencia de Microsoft Exchange.",
+                "B": "Crear una regla de flujo de correo.",
+                "C": "Crear un buz\u00f3n compartido.",
+                "D": "Agregar un dominio personalizado."
+            },
+            "correct_answers": [
+                "B",
+                "C"
+            ],
+            "correct_answer_text": [
+                "Crear una regla de flujo de correo.",
+                "Crear un buz\u00f3n compartido."
+            ]
+        },
+        {
+            "id": 67,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita generar un informe que muestre los permisos y los v\u00ednculos de uso compartido activos del contenido almacenado en cuentas de Microsoft OneDrive. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "Audit en el portal de Microsoft Defender",
+                "B": "Reports en el Centro de administraci\u00f3n de Microsoft 365",
+                "C": "Data access governance en el Centro de administraci\u00f3n de SharePoint",
+                "D": "eDiscovery en el portal de Microsoft Purview"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "Audit en el portal de Microsoft Defender"
+        },
+        {
+            "id": 68,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Un miembro de un sitio de Microsoft SharePoint puede invitar usuarios para acceder al contenido del sitio.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Un propietario de un sitio de Microsoft SharePoint puede agregar grupos de Microsoft 365 como miembros del sitio.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Un propietario de un sitio de Microsoft SharePoint puede quitar a otro propietario del sitio.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "type": "dropdown_selection",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365 que contiene un sitio de Microsoft SharePoint llamado Site1. Los permisos de Site1 est\u00e1n configurados como se muestra en el diagrama. Seleccione la respuesta correcta.",
+            "sentence": "User1 es ____ Site1.",
+            "options": [
+                "un visitante del sitio",
+                "un propietario del sitio",
+                "un miembro del sitio",
+                "impedido para acceder al sitio"
+            ],
+            "correct_answer": "un miembro del sitio"
+        },
+        {
+            "id": 70,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Las directivas de Acceso Condicional (Conditional Access) ____.",
+            "options": [
+                "se configuran mediante el portal de Microsoft Defender",
+                "se aplican \u00fanicamente a recursos locales (on-premises)",
+                "proporcionan control sobre c\u00f3mo los usuarios acceden a las aplicaciones en la nube",
+                "requieren un buz\u00f3n de Microsoft Exchange"
+            ],
+            "correct_answer": "proporcionan control sobre c\u00f3mo los usuarios acceden a las aplicaciones en la nube"
+        },
+        {
+            "id": 71,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Desde el Centro de administraci\u00f3n de Microsoft Teams, puede ____.",
+            "options": [
+                "asignar una licencia de Teams a un usuario",
+                "implementar el cliente de Teams",
+                "administrar un dispositivo Microsoft Teams Rooms",
+                "impedir que los usuarios creen equipos"
+            ],
+            "correct_answer": "administrar un dispositivo Microsoft Teams Rooms"
+        },
+        {
+            "id": 72,
+            "type": "true_false_group",
+            "question": "Desea ver las acciones administrativas realizadas por un administrador de servicios en Microsoft 365. Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Puede utilizar Search & intelligence en el Centro de administraci\u00f3n de Microsoft 365.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Puede utilizar Audit en el portal de Microsoft Defender.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Puede utilizar Audit en el portal de Microsoft Purview.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Desde el Centro de administraci\u00f3n de SharePoint, puede crear un(a) ____.",
+            "options": [
+                "servidor",
+                "usuario",
+                "sitio",
+                "rol"
+            ],
+            "correct_answer": "sitio"
+        },
+        {
+            "id": 74,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "Resolver la recomendaci\u00f3n ____ mejorar\u00e1 m\u00e1s el Identity Secure Score.",
+            "options": [
+                "No permitir que las contrase\u00f1as expiren",
+                "Usar roles administrativos con privilegios m\u00ednimos",
+                "Habilitar una directiva para bloquear la autenticaci\u00f3n heredada",
+                "Requerir autenticaci\u00f3n multifactor para roles administrativos"
+            ],
+            "correct_answer": "Requerir autenticaci\u00f3n multifactor para roles administrativos"
+        },
+        {
+            "id": 75,
+            "type": "dropdown_selection",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Un usuario llamado John tiene asignado un rol administrativo como se muestra en el diagrama. Seleccione la respuesta correcta.",
+            "sentence": "John puede ____.",
+            "options": [
+                "ver todos los usuarios del tenant de Microsoft Entra",
+                "ver todo el contenido de los sitios de Microsoft SharePoint",
+                "leer todo el contenido de los buzones de Microsoft Exchange",
+                "realizar eDiscovery de los prompts de Microsoft 365 Copilot"
+            ],
+            "correct_answer": "ver todo el contenido de los sitios de Microsoft SharePoint"
+        },
+        {
+            "id": 76,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Puede utilizar un grupo de seguridad de Microsoft Entra para asignar permisos a recursos de Microsoft Entra ID.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Puede utilizar un grupo de seguridad de Microsoft Entra para asignar licencias de Microsoft 365.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Puede utilizar un grupo de seguridad de Microsoft Entra para asignar permisos a buzones de Microsoft Exchange.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Los prompts y respuestas generados por los usuarios en Microsoft 365 Copilot son utilizados por Microsoft para entrenar modelos.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "El contenido recuperado mediante Microsoft Graph es utilizado por Microsoft para entrenar modelos.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Microsoft 365 Copilot respeta los permisos de seguridad existentes en su suscripci\u00f3n de Microsoft 365.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "En Microsoft Entra Privileged Identity Management (PIM), un administrador lo ha hecho elegible para el rol User Administrator. Antes de poder crear una cuenta de usuario, debe ____.",
+            "options": [
+                "activar el rol",
+                "instalar la aplicaci\u00f3n Microsoft Authenticator",
+                "solicitar una licencia",
+                "actualizar su informaci\u00f3n de ubicaci\u00f3n"
+            ],
+            "correct_answer": "activar el rol"
+        },
+        {
+            "id": 79,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Los usuarios que tienen asignada una licencia Microsoft 365 E5 pueden crear agentes de Microsoft 365 Copilot basados en informaci\u00f3n de la web.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Los usuarios deben tener asignada una licencia de Microsoft 365 Copilot para utilizar el agente Analyst.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Los usuarios pueden utilizar un prompt en lenguaje natural para crear un agente de Microsoft 365 Copilot.",
+                    "correct_answer": true
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "type": "true_false_group",
+            "question": "Para cada una de las siguientes afirmaciones, seleccione S\u00ed si la afirmaci\u00f3n es verdadera. De lo contrario, seleccione No.",
+            "statements": [
+                {
+                    "statement": "Zero Trust requiere una suscripci\u00f3n de Azure.",
+                    "correct_answer": false
+                },
+                {
+                    "statement": "Zero Trust es una estrategia de seguridad, NO un producto espec\u00edfico.",
+                    "correct_answer": true
+                },
+                {
+                    "statement": "Desde el Centro de administraci\u00f3n de Microsoft 365 puede habilitar Zero Trust para su organizaci\u00f3n.",
+                    "correct_answer": false
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Necesita revisar el impacto de un incidente reciente de phishing que tuvo como objetivo a usuarios de correo electr\u00f3nico. \u00bfQu\u00e9 deber\u00eda utilizar?",
+            "options": {
+                "A": "El portal de Microsoft Defender",
+                "B": "El Centro de administraci\u00f3n de Microsoft 365",
+                "C": "El Centro de administraci\u00f3n de Microsoft Entra",
+                "D": "El Centro de administraci\u00f3n de Exchange"
+            },
+            "correct_answer": "A",
+            "correct_answer_text": "El portal de Microsoft Defender"
+        },
+        {
+            "id": 82,
+            "type": "multiple_choice",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n Microsoft 365 E5. Necesita asegurarse de que un servicio en la nube de terceros pueda autenticarse en Microsoft Entra. \u00bfQu\u00e9 debe configurar?",
+            "options": {
+                "A": "Un conector de Microsoft 365 Copilot",
+                "B": "Autenticaci\u00f3n multifactor (MFA)",
+                "C": "Una directiva de Acceso Condicional",
+                "D": "Un registro de aplicaci\u00f3n (App Registration)"
+            },
+            "correct_answer": "D",
+            "correct_answer_text": "Un registro de aplicaci\u00f3n (App Registration)"
+        },
+        {
+            "id": 83,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "User5 est\u00e1 utilizando ____ para la autenticaci\u00f3n multifactor (MFA).",
+            "options": [
+                "OTP por correo electr\u00f3nico (Email OTP)",
+                "La aplicaci\u00f3n Microsoft Authenticator",
+                "SMS",
+                "Un Temporary Access Pass (TAP)"
+            ],
+            "correct_answer": "La aplicaci\u00f3n Microsoft Authenticator"
+        },
+        {
+            "id": 84,
+            "type": "mapping",
+            "question": "Su empresa utiliza la facturaci\u00f3n de pago por uso (pay-as-you-go) de Microsoft 365 Copilot. La empresa desea una mayor visibilidad de los costos de uso de Copilot y la capacidad de pronosticar el gasto por departamento. Necesita asegurarse de que puede ver los costos de Copilot por departamento. Seleccione las opciones adecuadas.",
+            "items": [
+                {
+                    "requirement": "Portal",
+                    "correct_answer": "Centro de administraci\u00f3n de Microsoft 365"
+                },
+                {
+                    "requirement": "Funcionalidad",
+                    "correct_answer": "Directiva de facturaci\u00f3n (Billing policy)"
+                }
+            ],
+            "available_options": {
+                "portal": [
+                    "Centro de administraci\u00f3n de Microsoft 365",
+                    "Centro de administraci\u00f3n de Microsoft Entra",
+                    "Portal de Microsoft Purview"
+                ],
+                "feature": [
+                    "Directiva de reclamaci\u00f3n autom\u00e1tica (Auto-claim policy)",
+                    "Directiva de facturaci\u00f3n (Billing policy)",
+                    "Conector de Copilot (Copilot connector)"
+                ]
+            }
+        },
+        {
+            "id": 85,
+            "type": "multiple_choice",
+            "question": "\u00bfQu\u00e9 puede utilizar para bloquear autom\u00e1ticamente una cuenta de usuario cuando se detecta un inicio de sesi\u00f3n riesgoso?",
+            "options": {
+                "A": "Microsoft Defender for Identity",
+                "B": "Microsoft Entra ID Protection",
+                "C": "Microsoft Defender for Office 365",
+                "D": "Microsoft Entra Privileged Identity Management (PIM)"
+            },
+            "correct_answer": "B",
+            "correct_answer_text": "Microsoft Entra ID Protection"
+        },
+        {
+            "id": 86,
+            "type": "dropdown_selection",
+            "question": "Seleccione la respuesta que completa correctamente la oraci\u00f3n.",
+            "sentence": "El principio de IA Responsable de Microsoft denominado ____ requiere la supervisi\u00f3n de los sistemas de IA para garantizar que los humanos permanezcan en control.",
+            "options": [
+                "Responsabilidad (Accountability)",
+                "Inclusividad (Inclusiveness)",
+                "Privacidad y seguridad (Privacy and Security)",
+                "Confiabilidad y seguridad (Reliability and Safety)",
+                "Transparencia (Transparency)"
+            ],
+            "correct_answer": "Responsabilidad (Accountability)"
+        },
+        {
+            "id": 87,
+            "type": "multiple_choice_multi_select",
+            "question": "Su organizaci\u00f3n tiene una suscripci\u00f3n de Microsoft 365. Crea un grupo de seguridad llamado Group1 y asigna una licencia Microsoft 365 E3 al grupo. Descubre que un usuario llamado User1 NO tiene acceso a las caracter\u00edsticas de Microsoft 365 E3. Necesita asegurarse de que User1 pueda acceder a todas las caracter\u00edsticas de Microsoft 365 E3. \u00bfQu\u00e9 dos acciones puede realizar? Cada respuesta correcta presenta una soluci\u00f3n completa.",
+            "options": {
+                "A": "Agregar User1 a Group1.",
+                "B": "Asignar una directiva de Acceso Condicional a Group1.",
+                "C": "Asignar una directiva de Acceso Condicional a User1.",
+                "D": "Asignar una licencia a User1."
+            },
+            "correct_answers": [
+                "A",
+                "D"
+            ],
+            "correct_answer_text": [
+                "Agregar User1 a Group1.",
+                "Asignar una licencia a User1."
+            ]
+        },
+        {
+            "id": 88,
+            "type": "multiple_choice",
+            "question": "\u00bfQu\u00e9 afirmaci\u00f3n describe correctamente la autorizaci\u00f3n (authorization) en Microsoft 365?",
+            "options": {
+                "A": "Un proceso para verificar si una identidad es quien o lo que dice ser.",
+                "B": "Un proceso para requerir m\u00e9todos adicionales de autenticaci\u00f3n antes de que una identidad pueda acceder a recursos.",
+                "C": "Un proceso para verificar si una identidad tiene permiso para acceder a un recurso.",
+                "D": "Un proceso para validar una identidad proveniente de un sistema externo."
+            },
+            "correct_answer": "C",
+            "correct_answer_text": "Un proceso para verificar si una identidad tiene permiso para acceder a un recurso."
+        }
+    ]
+}
